@@ -1,0 +1,50 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.tasks.runTask",
+    "args": "yarn test"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.tasks.runTask",
+    "args": "mix test"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "=> {$0}"
+    }
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<$1>$0</$1>"
+    }
+  },
+  {
+    "key": "ctrl+alt+e",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "%{$1}$0"
+    }
+  },
+  {
+    "key": "ctrl+alt+w",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<%= $1 %>$0"
+    }
+  }
+]
