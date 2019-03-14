@@ -15,7 +15,7 @@
   "workbench.colorTheme": "One Dark Pro Vivid",
   "editor.minimap.enabled": false,
   "editor.rulers": [
-    80
+    98
   ],
   "elixirLS.suggestSpecs": false,
   "workbench.statusBar.feedback.visible": false,
