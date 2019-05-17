@@ -46,5 +46,13 @@
     "args": {
       "snippet": "<%= $1 %>$0"
     }
+  },
+  {
+    "key": "ctrl+shift+alt+\\",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "|> $0"
+    }
   }
 ]

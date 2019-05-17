@@ -8,6 +8,14 @@
   "files.associations": {
     "*.liquid": "html"
   },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".elixir_ls": true
+  },
   "emmet.includeLanguages": {
     "HTML (Eex)": "html"
   },
@@ -25,10 +33,14 @@
   "editor.detectIndentation": false,
   "editor.renderIndentGuides": false,
   "explorer.openEditors.visible": 0,
-  "workbench.panel.defaultLocation": "right",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "explorer.autoReveal": false,
-  "javascript.preferences.quoteStyle": "single"
+  "javascript.preferences.quoteStyle": "single",
+  "editor.dragAndDrop": false,
+  "comments.openPanel": "openOnSessionStart",
+  "workbench.panel.defaultLocation": "right",
+  "extensions.ignoreRecommendations": true,
+  "elixirLS.fetchDeps": false
 }
