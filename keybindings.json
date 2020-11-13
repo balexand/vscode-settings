@@ -54,5 +54,10 @@
     "args": {
       "snippet": "|> $0"
     }
+  },
+  {
+    "key": "ctrl+e",
+    "command": "editor.emmet.action.expandAbbreviation",
+    "when": "editorTextFocus"
   }
 ]

@@ -6,41 +6,55 @@
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "onFocusChange",
   "files.associations": {
-    "*.liquid": "html"
+    "*.liquid": "html",
+    "*.leex": "html",
+    "*.eex": "html"
   },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true,
-    ".elixir_ls": true
+    "**/.DS_Store": true
   },
   "emmet.includeLanguages": {
     "HTML (Eex)": "html"
   },
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "One Dark Pro Vivid",
-  "editor.minimap.enabled": false,
   "editor.rulers": [
     98
   ],
-  "elixirLS.suggestSpecs": false,
-  "workbench.statusBar.feedback.visible": false,
+  "breadcrumbs.enabled": true,
+  "comments.openPanel": "openOnSessionStart",
+  "editor.columnSelection": false,
+  "editor.detectIndentation": false,
+  "editor.dragAndDrop": false,
   "editor.folding": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fit",
+  "editor.renderIndentGuides": false,
+  "editor.tabSize": 2,
+  "elixirLS.fetchDeps": false,
+  "elixirLS.suggestSpecs": false,
+  "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
+  "files.eol": "\n",
+  "javascript.preferences.quoteStyle": "single",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.detectIndentation": false,
-  "editor.renderIndentGuides": false,
-  "explorer.openEditors.visible": 0,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
-  "editor.formatOnSave": false,
-  "explorer.autoReveal": false,
-  "javascript.preferences.quoteStyle": "single",
-  "editor.dragAndDrop": false,
-  "comments.openPanel": "openOnSessionStart",
+  "workbench.editor.tabSizing": "shrink",
   "workbench.panel.defaultLocation": "right",
-  "extensions.ignoreRecommendations": true,
-  "elixirLS.fetchDeps": false
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.feedback.visible": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
 }
